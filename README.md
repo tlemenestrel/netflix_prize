@@ -54,7 +54,7 @@ The KNN algorithm is a KNN based approach that looks at ratings of neighbors to 
 
 ## Results 
 
-We run a 3-fold Grid Searchi Cross Validation and tune the learning rate and regularization hyperparameters of SVD and SVD++:
+We run a 3-fold Grid Search Cross Validation and tune the learning rate and regularization hyperparameters of SVD and SVD++:
 
 <p align="center">
 <img src="https://github.com/tlemenestrel/netflix_prize/blob/main/eda/cv_svd.jpg"width="700">
