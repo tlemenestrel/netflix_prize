@@ -1,5 +1,9 @@
 # Netflix Prize
 
+<p align="center">
+<img src="https://github.com/tlemenestrel/netflix_prize/blob/main/eda/73EA6C9E-E8FE-4CF2-904C-D7E14C748E3F.webp"width="700">
+</p>
+
 ## Introduction
 
 The Netflix Prize was an open competition held from 2006 to 2009 for the best collaborative filtering algorithm to predict user ratings for films. The prediction was based on previous ratings from users of Netflix's movies without other information about users or films.
