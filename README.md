@@ -34,6 +34,16 @@ We implement 3 different algorithms for this problem which are well suited for r
 
 The SVD algorithm consists of decomposing the user-item interaction matrix into the product of two lower-dimensionality rectangular matrices and then performing their product to predict the values of non-empty cells in the user-movie interaction matrix.
 
+<p align="center">
+<img src="https://github.com/tlemenestrel/netflix_prize/blob/main/eda/044BC33B-27FC-4C71-95F0-F0A17D4FA163.jpeg" width="700">
+</p>
+
+We predict the rating of a user as follows:
+
+<p align="center">
+<img src="https://github.com/tlemenestrel/netflix_prize/blob/main/eda/F5FB9B8B-0433-4733-B8A3-618DC79A00DB.jpeg" width="700">
+</p>
+
 ### The SVD++ Algorithm
 
 The SVD++ algorithm is an extension of the SVD that uses implicit ratings (the fact that a user rated a movie, regardless of the rating).
@@ -44,10 +54,16 @@ The KNN algorithm is a KNN based approach that looks at ratings of neighbors to 
 
 ## Results 
 
-We run a 3-fold Grid Search Cross Validation and tune the learning rate and regularization hyperparameters of SVD and SVD++:
+We run a 3-fold Grid Searchi Cross Validation and tune the learning rate and regularization hyperparameters of SVD and SVD++:
 
 <p align="center">
 <img src="https://github.com/tlemenestrel/netflix_prize/blob/main/eda/cv_svd.jpg"width="700">
+</p>
+
+We get the following final results:
+
+<p align="center">
+<img src="https://github.com/tlemenestrel/netflix_prize/blob/main/eda/71FCEB1D-9DE1-4601-838A-E1FC76FD4112.jpeg" width="700">
 </p>
 
 ## Future Work
